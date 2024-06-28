@@ -4,7 +4,6 @@ az webapp config appsettings set --resource-group mogamin-appservice-multicontai
 
 az webapp config container set --resource-group mogamin-appservice-multicontainer-test-group --name mogaminDify --multicontainer-config-type compose --multicontainer-config-file docker-compose.yaml
 
-
-
+az webapp delete --resource-group mogamin-appservice-multicontainer-test-group --name mogaminDify
 
 
